@@ -1,4 +1,4 @@
-# Arshiya's Portfolio Project
+# Project-Portfolio
 
 A full-stack portfolio website built with the **MERN** stack (minus the M, using mock/external APIs) with **TypeScript**.
 
@@ -50,4 +50,3 @@ The backend will be available at `http://localhost:5000`.
 
 ## 📄 License
 MIT
-# Project-Portfolio
