@@ -14,6 +14,11 @@ app.use(express.json());
 // Main API routes
 app.use('/api', router);
 
+// Welcome route
+app.get('/', (req, res) => {
+    res.status(200).send('Welcome to the Portfolio API! Backend is running successfully.');
+});
+
 // Health check
 app.get('/health', (req, res) => {
     res.status(200).json({ status: 'OK', message: 'Backend is running' });
