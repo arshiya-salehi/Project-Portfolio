@@ -2,6 +2,7 @@ import { Request, Response } from 'express';
 import { fetchRandomImage, generateCaption } from '../services/imageService';
 
 export const generateImageAndCaption = async (req: Request, res: Response) => {
+    console.log('🚀 BACKEND: Received request to /api/generate');
     try {
         // 1. Pick a random query from a predefined list as per PID.md
         const queries = [
